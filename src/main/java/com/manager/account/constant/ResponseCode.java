@@ -16,8 +16,11 @@ public class ResponseCode {
     public static final String UPDATE_ERROR = "UP001";
     public static final String VIDEO_GET_ERROR = "VD001";
     public static final String ADD_CATEGORY_ERROR = "CG-01";
+    public static final String ADD_SLIDE_ERROR = "SLIDE-01";
     public static final String GET_CATEGORY_ERROR = "CG-02";
+    public static final String GET_SLIDE_ERROR = "SLIDE-02";
     public static final String DELETE_CATEGORY_ERROR = "CG-03";
+    public static final String DELETE_SLIDE_ERROR = "SLIDE-03";
 
     String code;
     String message;
